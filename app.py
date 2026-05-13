@@ -116,8 +116,11 @@ adjacent_role_translation = {
 
 @st.cache_data
 def load_psychologist_range_data():
-    psych_df = pd.read_csv('data/Market Size — RDP.csv')
-
+    psych_df = pd.read_csv(
+        "data/Market Size — RDP.csv",
+        encoding="latin1"
+    )
+    
     psych_df.columns = [
         "pais",
         "region",

@@ -22,6 +22,19 @@ def load_data():
     df["Value"] = pd.to_numeric(df["Value"], errors="coerce")
     df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
 
+    # -----------------------------
+    # Roles incluidos en el análisis
+    # -----------------------------
+
+    included_roles = (
+        primary_roles
+        + secondary_roles
+        + adjacent_roles
+    )
+
+    # Filtrar solamente profesiones relevantes
+    df = df[df["Lvl1_name"].isin(included_roles)].copy()
+
     return df
 
 

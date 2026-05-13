@@ -37,6 +37,30 @@ def load_data():
 
     return df
 
+country_name_to_iso = {
+    "Perú": "PER",
+    "Argentina": "ARG",
+    "Bolivia": "BOL",
+    "Chile": "CHL",
+    "Colombia": "COL",
+    "Costa Rica": "CRI",
+    "Cuba": "CUB",
+    "Republica Dominicana": "DOM",
+    "Ecuador": "ECU",
+    "El Salvador": "SLV",
+    "España": "ESP",
+    "Guatemala": "GTM",
+    "Honduras": "HND",
+    "Mexico": "MEX",
+    "Nicaragua": "NIC",
+    "Panama": "PAN",
+    "Paraguay": "PRY",
+    "Puerto Rico": "PRI",
+    "Uruguay": "URY",
+    "Venezuela": "VEN",
+    "Estados Unidos Continental": "USA",
+}
+
 
 primary_roles = [
     "Psychologists",
@@ -120,7 +144,9 @@ def load_psychologist_range_data():
         "data/Market Size — RDP.csv",
         encoding="latin1"
     )
-    
+
+    psych_df = psych_df[['Pais','Region','Poblacion','Psicologos Practicantes']]
+
     psych_df.columns = [
         "pais",
         "region",
@@ -141,13 +167,16 @@ def load_psychologist_range_data():
         .astype(float)
     )
 
+
     psych_df["psicologos_practicantes"] = (
         psych_df["psicologos_practicantes"]
         .astype(str)
         .str.replace(",", "", regex=False)
         .replace({"": pd.NA, "nan": pd.NA})
+        .replace({pd.NA: None})
         .astype(float)
     )
+#     psych_dt = psych_dt.where(pd.notnull(df), None)
 
     psych_df["ISO3"] = psych_df["pais"].str.strip().map(country_name_to_iso)
     psych_df = psych_df[psych_df["ISO3"].notna()].copy()
@@ -160,6 +189,11 @@ def load_psychologist_range_data():
 
     train = psych_df[psych_df["psicologos_practicantes"].notna()]
     missing = psych_df[psych_df["psicologos_practicantes"].isna()]
+
+    # st.write('train')
+    # st.write(train)
+    # st.write('missing')
+    # st.write(missing)
 
     features = ["poblacion", "log_poblacion"]
 
@@ -198,6 +232,24 @@ def assign_segment(role):
 
 psych_range_df = load_psychologist_range_data()
 
+df = load_data()
+
+target_iso = [
+    "ARG", "BOL", "CHL", "COL", "CRI", "CUB", "DOM", "ECU", "ESP", 
+    "SLV", "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "URY", "VEN"
+]
+
+market_df = df[df["ISO3"].isin(target_iso)].copy()
+
+market_df["segmento_mercado"] = market_df["Lvl1_name"].apply(assign_segment)
+market_df["profesion"] = market_df["Lvl1_name"].replace(role_translation)
+
+latest_df = (
+    market_df.sort_values("Year")
+    .groupby(["ISO3", "Country", "profesion", "Lvl2_name"], as_index=False)
+    .tail(1)
+)
+
 who_psych_low = (
     latest_df[latest_df["profesion"] == "Psicólogos"]
     .groupby(["ISO3", "Country"], as_index=False)["Value"]
@@ -221,24 +273,6 @@ psych_market_range["brecha"] = (
 )
 
 
-
-df = load_data()
-
-target_iso = [
-    "ARG", "BOL", "CHL", "COL", "CRI", "CUB", "DOM", "ECU",
-    "SLV", "GTM", "HND", "MEX", "NIC", "PAN", "PRY", "PER", "URY", "VEN"
-]
-
-market_df = df[df["ISO3"].isin(target_iso)].copy()
-
-market_df["segmento_mercado"] = market_df["Lvl1_name"].apply(assign_segment)
-market_df["profesion"] = market_df["Lvl1_name"].replace(role_translation)
-
-latest_df = (
-    market_df.sort_values("Year")
-    .groupby(["ISO3", "Country", "profesion", "Lvl2_name"], as_index=False)
-    .tail(1)
-)
 
 st.sidebar.header("Filtros")
 
@@ -288,7 +322,7 @@ total_market = segment_totals["Value"].sum()
 num_countries = filtered_df["Country"].nunique()
 num_professions = filtered_df["profesion"].nunique()
 
-tab1, tab2 = st.tabs(["WHO Data", "WHO-National Range"])
+tab1, tab2 = st.tabs(["Data OMS", "Data Nacional vs. OMS"])
 
 with tab1: 
 
@@ -412,32 +446,218 @@ with tab1:
         st.dataframe(filtered_df, use_container_width=True)
 
 with tab2: 
-    st.subheader("Rango estimado del mercado de psicólogos")
 
-    total_psych_low = psych_market_range["psicologos_rango_bajo"].sum()
-    total_psych_high = psych_market_range["psicologos_rango_alto"].sum()
 
-    col_a, col_b = st.columns(2)
-    col_a.metric("Psicólogos — rango bajo (OMS)", f"{total_psych_low:,.0f}")
-    col_b.metric("Psicólogos — rango alto (datos nacionales + estimación)", f"{total_psych_high:,.0f}")
+    # # -----------------------------
+    # # Comparación: psicólogos nacionales/modelados vs OMS
+    # # -----------------------------
 
-    range_plot_df = psych_market_range.sort_values("psicologos_rango_alto", ascending=False)
-
-    fig_psych_range = px.bar(
-        range_plot_df,
-        x="Country",
-        y=["psicologos_rango_bajo", "psicologos_rango_alto"],
-        barmode="group",
-        title="Rango estimado de psicólogos por país",
-        labels={
-            "value": "Psicólogos estimados",
-            "Country": "País",
-            "variable": "Estimación"
-        },
+    st.header("Comparación de datos de psicólogos")
+    st.caption(
+        "Comparación entre datos nacionales disponibles, estimaciones propias por modelo y estimaciones reportadas por la OMS."
     )
 
-    fig_psych_range.update_layout(
+    psych_df = psych_range_df.copy()
+
+    psych_df["psicologos_practicantes"] = pd.to_numeric(
+        psych_df["psicologos_practicantes"], errors="coerce"
+    )
+
+    psych_df["psicologos_rango_alto"] = pd.to_numeric(
+        psych_df["psicologos_rango_alto"], errors="coerce"
+    )
+
+    psych_df["poblacion"] = pd.to_numeric(
+        psych_df["poblacion"], errors="coerce"
+    )
+
+    psych_df["tipo_dato_nacional"] = psych_df["psicologos_practicantes"].notna().map({
+        True: "Dato nacional disponible",
+        False: "Estimación por modelo"
+    })
+
+    psych_df["valor_nacional_o_modelado"] = psych_df["psicologos_practicantes"].fillna(
+        psych_df["psicologos_rango_alto"]
+    )
+
+    country_name_map = {
+        "Perú": "Peru",
+        "México": "Mexico",
+        "Mexico": "Mexico",
+        "Argentina": "Argentina",
+        "Bolivia": "Bolivia (Plurinational State of)",
+        "Chile": "Chile",
+        "Colombia": "Colombia",
+        "Costa Rica": "Costa Rica",
+        "Cuba": "Cuba",
+        "Republica Dominicana": "Dominican Republic",
+        "Ecuador": "Ecuador",
+        "El Salvador": "El Salvador",
+        "España": "Spain",
+        "Guinea Ecuatorial": "Equatorial Guinea",
+        "Guatemala": "Guatemala",
+        "Honduras": "Honduras",
+        "Nicaragua": "Nicaragua",
+        "Panama": "Panama",
+        "Paraguay": "Paraguay",
+        "Puerto Rico": "Puerto Rico",
+        "Uruguay": "Uruguay",
+        "Venezuela": "Venezuela (Bolivarian Republic of)",
+        "Estados Unidos Continental": "United States of America",
+    }
+
+    psych_df["pais_oms"] = psych_df["pais"].replace(country_name_map)
+
+    oms_psych = (
+        latest_df[latest_df["profesion"].eq("Psicólogos")]
+        .groupby(["Country", "ISO3"], as_index=False)["Value"]
+        .sum()
+        .rename(columns={
+            "Country": "pais_oms",
+            "Value": "psicologos_oms"
+        })
+    )
+
+    compare_df = psych_df.merge(
+        oms_psych[["pais_oms", "ISO3", "psicologos_oms"]],
+        on="pais_oms",
+        how="left"
+    )
+
+    compare_df["diferencia_vs_oms"] = (
+        compare_df["valor_nacional_o_modelado"] - compare_df["psicologos_oms"]
+    )
+
+    compare_df["ratio_vs_oms"] = (
+        compare_df["valor_nacional_o_modelado"] / compare_df["psicologos_oms"]
+    )
+
+    compare_df["psicologos_100k_nacional_modelado"] = (
+        compare_df["valor_nacional_o_modelado"] / compare_df["poblacion"] * 100000
+    )
+
+    compare_df["psicologos_100k_oms"] = (
+        compare_df["psicologos_oms"] / compare_df["poblacion"] * 100000
+    )
+
+    # -----------------------------
+    # Métricas resumidas
+    # -----------------------------
+
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric(
+        "Total nacional/modelado",
+        f"{compare_df['valor_nacional_o_modelado'].sum():,.0f}"
+    )
+
+    col2.metric(
+        "Total OMS disponible",
+        f"{compare_df['psicologos_oms'].sum():,.0f}"
+    )
+
+    col3.metric(
+        "Países comparados",
+        f"{compare_df['pais'].nunique():,.0f}"
+    )
+
+    # -----------------------------
+    # Filtro de países
+    # -----------------------------
+
+    selected_psych_countries = st.multiselect(
+        "Países para comparar",
+        sorted(compare_df["pais"].dropna().unique()),
+        default=sorted(compare_df["pais"].dropna().unique())
+    )
+
+    compare_filtered = compare_df[
+        compare_df["pais"].isin(selected_psych_countries)
+    ].copy()
+
+    # -----------------------------
+    # 1. Barras: nacional/modelado vs OMS
+    # -----------------------------
+
+    plot_df = compare_filtered.melt(
+        id_vars=["pais", "tipo_dato_nacional"],
+        value_vars=["valor_nacional_o_modelado", "psicologos_oms"],
+        var_name="fuente",
+        value_name="psicologos"
+    )
+
+    plot_df["fuente"] = plot_df["fuente"].replace({
+        "valor_nacional_o_modelado": "Fuente nacional / estimación propia",
+        "psicologos_oms": "OMS"
+    })
+
+    plot_df = plot_df.dropna(subset=["psicologos"])
+
+    fig_compare = px.bar(
+        plot_df.sort_values("psicologos", ascending=False),
+        x="pais",
+        y="psicologos",
+        color="fuente",
+        barmode="group",
+        pattern_shape="tipo_dato_nacional",
+        title="Comparación de psicólogos estimados: fuentes nacionales, modelo propio y OMS",
+        text_auto=".2s",
+    )
+
+    fig_compare.update_layout(
+        xaxis_title="País",
+        yaxis_title="Psicólogos / terapeutas estimados",
+        legend_title="Fuente",
         xaxis_tickangle=-45,
     )
 
-    st.plotly_chart(fig_psych_range, use_container_width=True)
+    st.plotly_chart(fig_compare, use_container_width=True)
+
+    # -----------------------------
+    # 2. Mapa: tamaño estimado del mercado
+    # -----------------------------
+
+    compare_filtered = compare_filtered.rename(columns={"ISO3_x":"ISO3"})
+
+    fig_market_map = px.choropleth(
+        compare_filtered,
+        locations="ISO3",
+        color="valor_nacional_o_modelado",
+        hover_name="pais",
+        hover_data={
+            "valor_nacional_o_modelado": ":,.0f",
+            "tipo_dato_nacional": True,
+            "ISO3": False,
+        },
+        title="Distribución geográfica del mercado estimado de psicólogos",
+        color_continuous_scale="Blues",
+    )
+
+    fig_market_map.update_layout(
+        coloraxis_colorbar_title="Psicólogos estimados",
+        margin=dict(t=60, l=20, r=20, b=20)
+    )
+
+    st.plotly_chart(fig_market_map, use_container_width=True)
+
+    # -----------------------------
+    # 5. Tabla comparativa
+    # -----------------------------
+
+    with st.expander("Ver tabla comparativa de psicólogos"):
+        st.dataframe(
+            compare_filtered[
+                [
+                    "pais",
+                    "tipo_dato_nacional",
+                    "poblacion",
+                    "valor_nacional_o_modelado",
+                    "psicologos_oms",
+                    "diferencia_vs_oms",
+                    "ratio_vs_oms",
+                    "psicologos_100k_nacional_modelado",
+                    "psicologos_100k_oms",
+                ]
+            ],
+            use_container_width=True
+        )

@@ -58,36 +58,17 @@ secondary_roles = [
     "Traditional and Complementary Medicine Associate Professionals",
 ]
 
-extra_roles = ['Medical Imaging and Therapeutic Equipment Technicians',
- 'Other non-medical support staff',
- 'Dental Prosthetic Technicians',
- 'Physiotherapy Technicians and Assistants',
- 'Midwifery Personnel',
- 'Medical Prosthetic Technicians',
- 'Medical and Pathology Laboratory scientists',
- 'Medical and Pathology Laboratory Technicians',
- 'Optometrists and Ophthalmic Opticians',
- 'Biomedical engineer',
- 'Pharmaceutical Technicians and Assistants',
- 'Ambulance Workers',
- 'Health information systems personnel',
- 'Personal care workers in health services n.e.c',
- 'Epidemiologists',
- 'Managerial staff',
- 'Environmental and Occupational Health and Hygiene Professionals',
- 'Dental Assistants and Therapists',
- 'Dispensing Opticians',
- 'Paramedical Practitioners',
- 'Field Epidemiologists',
- 'Environmental and Occupational Health Inspectors and Associates',
- 'Medical Records and Health Information Technicians',
- 'Pharmacists',
- 'Other non-medical professional staff',
- 'Medical Assistants',
- 'Dentists',
- 'Audiologists and Speech Therapists',
- 'Engineering and maintenance staff'
+adjacent_roles = [
+    "Physiotherapy Technicians and Assistants",
+    "Midwifery Personnel",
+    "Optometrists and Ophthalmic Opticians",
+    "Dental Assistants and Therapists",
+    "Paramedical Practitioners",
+    "Medical Assistants",
+    "Dentists",
+    "Audiologists and Speech Therapists",
 ]
+
 
 role_translation = {
     "Psychologists": "Psicólogos",
@@ -106,81 +87,21 @@ role_translation = {
     "Traditional and Complementary Medicine Associate Professionals": "Técnicos de medicina tradicional y complementaria",
 }
 
-role_translation_extra = {
-    "Medical Imaging and Therapeutic Equipment Technicians":
-        "Técnicos en imágenes médicas y equipos terapéuticos",
-
-    "Other non-medical support staff":
-        "Otro personal de apoyo no médico",
-
-    "Dental Prosthetic Technicians":
-        "Técnicos en prótesis dentales",
-
+adjacent_role_translation = {
     "Physiotherapy Technicians and Assistants":
         "Técnicos y asistentes de fisioterapia",
 
     "Midwifery Personnel":
         "Personal de partería y obstetricia",
 
-    "Medical Prosthetic Technicians":
-        "Técnicos en prótesis médicas",
-
-    "Medical and Pathology Laboratory scientists":
-        "Científicos de laboratorio médico y patología",
-
-    "Medical and Pathology Laboratory Technicians":
-        "Técnicos de laboratorio médico y patología",
-
     "Optometrists and Ophthalmic Opticians":
         "Optometristas y ópticos oftálmicos",
-
-    "Biomedical engineer":
-        "Ingenieros biomédicos",
-
-    "Pharmaceutical Technicians and Assistants":
-        "Técnicos y asistentes farmacéuticos",
-
-    "Ambulance Workers":
-        "Trabajadores de ambulancia",
-
-    "Health information systems personnel":
-        "Personal de sistemas de información en salud",
-
-    "Personal care workers in health services n.e.c":
-        "Trabajadores de cuidado personal en servicios de salud",
-
-    "Epidemiologists":
-        "Epidemiólogos",
-
-    "Managerial staff":
-        "Personal gerencial",
-
-    "Environmental and Occupational Health and Hygiene Professionals":
-        "Profesionales de salud e higiene ambiental y ocupacional",
 
     "Dental Assistants and Therapists":
         "Asistentes y terapeutas dentales",
 
-    "Dispensing Opticians":
-        "Ópticos dispensadores",
-
     "Paramedical Practitioners":
         "Profesionales paramédicos",
-
-    "Field Epidemiologists":
-        "Epidemiólogos de campo",
-
-    "Environmental and Occupational Health Inspectors and Associates":
-        "Inspectores y asociados de salud ocupacional y ambiental",
-
-    "Medical Records and Health Information Technicians":
-        "Técnicos en registros médicos e información de salud",
-
-    "Pharmacists":
-        "Farmacéuticos",
-
-    "Other non-medical professional staff":
-        "Otro personal profesional no médico",
 
     "Medical Assistants":
         "Asistentes médicos",
@@ -190,9 +111,6 @@ role_translation_extra = {
 
     "Audiologists and Speech Therapists":
         "Audiólogos y terapeutas del habla",
-
-    "Engineering and maintenance staff":
-        "Personal de ingeniería y mantenimiento",
 }
 
 
@@ -292,7 +210,7 @@ with st.expander("Ver definición de segmentos"):
 
     with col_c:
         st.subheader("Mercado adyacente")
-        st.markdown("\n".join([f"- {role_translation_extra.get(role, role)}" for role in extra_roles]))
+        st.markdown("\n".join([f"- {adjacent_role_translation.get(role, role)}" for role in adjacent_roles]))
 
 st.subheader("Fuerza laboral alcanzable estimada por país")
 

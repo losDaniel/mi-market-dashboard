@@ -116,7 +116,7 @@ adjacent_role_translation = {
 
 @st.cache_data
 def load_psychologist_range_data():
-    psych_df = pd.read_csv(PSYCH_MARKET_PATH)
+    psych_df = pd.read_csv('data/Market Size — RDP.csv')
 
     psych_df.columns = [
         "pais",
@@ -415,7 +415,7 @@ with tab2:
     total_psych_high = psych_market_range["psicologos_rango_alto"].sum()
 
     col_a, col_b = st.columns(2)
-    col_a.metric("Psicólogos — rango bajo (OMS)", f"{total_psych_low:,.0f}")
+    col_a.metric("Psicólogos — rango bajo (OMS)", f"{to tal_psych_low:,.0f}")
     col_b.metric("Psicólogos — rango alto (datos nacionales + estimación)", f"{total_psych_high:,.0f}")
 
     range_plot_df = psych_market_range.sort_values("psicologos_rango_alto", ascending=False)

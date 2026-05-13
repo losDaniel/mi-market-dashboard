@@ -1,0 +1,782 @@
+Region,ISO3,Country,Year,Lvl1_name,Lvl2_name,Category,Value
+AMR,ATG,Antigua and Barbuda,2007,Nursing Personnel,Nursing Personnel not further defined,Total,277
+AMR,ATG,Antigua and Barbuda,2007,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,8
+AMR,ATG,Antigua and Barbuda,2007,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,21
+AMR,ATG,Antigua and Barbuda,2007,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,3
+AMR,ATG,Antigua and Barbuda,2007,Social work and counselling professionals,Social work and counselling professionals,Total,5
+AMR,ATG,Antigua and Barbuda,2014,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,7
+AMR,ATG,Antigua and Barbuda,2017,Medical Doctors,Medical Doctors not further defined,Total,264
+AMR,ATG,Antigua and Barbuda,2019,Nursing Personnel,Nursing Associate Professionals,Total,42
+AMR,ATG,Antigua and Barbuda,2019,Community Health Workers,Community Health Workers,Total,34
+AMR,ATG,Antigua and Barbuda,2024,Medical Doctors,General Medical Practitioners,Total,226
+AMR,ATG,Antigua and Barbuda,2024,Medical Doctors,Specialist Medical Practitioners,Total,179
+AMR,ATG,Antigua and Barbuda,2024,Nursing Personnel,Nursing Professionals,Total,372
+AMR,ATG,Antigua and Barbuda,2024,Midwifery Personnel,Midwifery Professionals,Total,104
+AMR,ATG,Antigua and Barbuda,2024,Dentists,Dentists,Total,22
+AMR,ATG,Antigua and Barbuda,2024,Pharmacists,Pharmacists,Total,85
+AMR,ATG,Antigua and Barbuda,2024,Dieticians,Dieticians,Total,2
+AMR,ATG,Antigua and Barbuda,2024,Nutritionists,Nutritionists,Total,7
+AMR,ARG,Argentina,1992,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,7500
+AMR,ARG,Argentina,1992,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,1000
+AMR,ARG,Argentina,1992,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,6000
+AMR,ARG,Argentina,1992,Social work and counselling professionals,Social work and counselling professionals,Total,3300
+AMR,ARG,Argentina,1998,Nursing Personnel,Nursing Personnel not further defined,Total,29000
+AMR,ARG,Argentina,2023,Medical Doctors,General Medical Practitioners,Total,4495
+AMR,ARG,Argentina,2023,Medical Doctors,Specialist Medical Practitioners,Total,51727
+AMR,ARG,Argentina,2023,Medical Doctors,Medical Doctors not further defined,Total,175473
+AMR,ARG,Argentina,2023,Nursing Personnel,Nursing Professionals,Total,209803
+AMR,ARG,Argentina,2023,Nursing Personnel,Nursing Associate Professionals,Total,79132
+AMR,ARG,Argentina,2023,Midwifery Personnel,Midwifery Professionals,Total,6458
+AMR,ARG,Argentina,2023,Dentists,Dentists,Total,49356
+AMR,ARG,Argentina,2023,Pharmacists,Pharmacists,Total,26314
+AMR,ARG,Argentina,2023,Physiotherapists,Physiotherapists,Total,35556
+AMR,ARG,Argentina,2023,Dieticians,Dieticians,Total,49466
+AMR,ARG,Argentina,2023,Nutritionists,Nutritionists,Total,23221
+AMR,ARG,Argentina,2023,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,11489
+AMR,ARG,Argentina,2023,Psychologists,Psychologists,Total,113477
+AMR,BHS,Bahamas,2008,Ambulance Workers,Ambulance Workers,Total,18
+AMR,BHS,Bahamas,2011,Nursing Personnel,Nursing Personnel not further defined,Total,1458
+AMR,BHS,Bahamas,2011,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,40
+AMR,BHS,Bahamas,2011,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,6
+AMR,BHS,Bahamas,2011,Pharmacists,Pharmacists,Total,202
+AMR,BHS,Bahamas,2011,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,90
+AMR,BHS,Bahamas,2011,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,104
+AMR,BHS,Bahamas,2011,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,56
+AMR,BHS,Bahamas,2011,Physiotherapists,Physiotherapists,Total,55
+AMR,BHS,Bahamas,2011,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,4
+AMR,BHS,Bahamas,2011,Dieticians,Dieticians,Total,7
+AMR,BHS,Bahamas,2011,Nutritionists,Nutritionists,Total,1
+AMR,BHS,Bahamas,2011,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,9
+AMR,BHS,Bahamas,2011,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,11
+AMR,BHS,Bahamas,2017,Medical Doctors,Medical Doctors not further defined,Total,740
+AMR,BHS,Bahamas,2017,Dentists,Dentists,Total,99
+AMR,BHS,Bahamas,2018,Engineering and maintenance staff,Engineering and maintenance staff,Total,15
+AMR,BHS,Bahamas,2018,Other non-medical professional staff,Other non-medical professional staff,Total,13
+AMR,BHS,Bahamas,2023,Nursing Personnel,Nursing Professionals,Total,1332
+AMR,BHS,Bahamas,2023,Nursing Personnel,Nursing Associate Professionals,Total,355
+AMR,BRB,Barbados,2005,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,12
+AMR,BRB,Barbados,2005,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,102
+AMR,BRB,Barbados,2005,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,74
+AMR,BRB,Barbados,2005,Social work and counselling professionals,Social work and counselling professionals,Total,9
+AMR,BRB,Barbados,2017,Medical Doctors,Medical Doctors not further defined,Total,712
+AMR,BRB,Barbados,2018,Nursing Personnel,Nursing Personnel not further defined,Total,877
+AMR,BRB,Barbados,2022,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,3
+AMR,BRB,Barbados,2023,Medical Doctors,General Medical Practitioners,Total,677
+AMR,BRB,Barbados,2023,Nursing Personnel,Nursing Professionals,Total,1035
+AMR,BRB,Barbados,2023,Midwifery Personnel,Midwifery Professionals,Total,133
+AMR,BRB,Barbados,2023,Dentists,Dentists,Total,88
+AMR,BRB,Barbados,2023,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,20
+AMR,BRB,Barbados,2023,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,5
+AMR,BRB,Barbados,2023,Pharmacists,Pharmacists,Total,327
+AMR,BRB,Barbados,2023,Paramedical Practitioners,Paramedical Practitioners,Total,21
+AMR,BRB,Barbados,2023,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,120
+AMR,BRB,Barbados,2023,Physiotherapists,Physiotherapists,Total,60
+AMR,BRB,Barbados,2023,Dieticians,Dieticians,Total,7
+AMR,BRB,Barbados,2023,Nutritionists,Nutritionists,Total,8
+AMR,BRB,Barbados,2023,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,21
+AMR,BRB,Barbados,2023,Ambulance Workers,Ambulance Workers,Total,127
+AMR,BRB,Barbados,2023,Psychologists,Psychologists,Total,62
+AMR,BLZ,Belize,2007,Social work and counselling professionals,Social work and counselling professionals,Total,18
+AMR,BLZ,Belize,2009,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,60
+AMR,BLZ,Belize,2012,Nursing Personnel,Nursing Personnel not further defined,Total,451
+AMR,BLZ,Belize,2017,Midwifery Personnel,Midwifery Personnel not further defined,Total,56
+AMR,BLZ,Belize,2019,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,31
+AMR,BLZ,Belize,2019,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,5
+AMR,BLZ,Belize,2021,Medical Doctors,Medical Doctors not further defined,Total,528
+AMR,BLZ,Belize,2022,Dentists,Dentists,Total,69
+AMR,BLZ,Belize,2022,Pharmacists,Pharmacists,Total,310
+AMR,BLZ,Belize,2022,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,11
+AMR,BLZ,Belize,2023,Nursing Personnel,Nursing Professionals,Total,549
+AMR,BLZ,Belize,2023,Nursing Personnel,Nursing Associate Professionals,Total,298
+AMR,BLZ,Belize,2024,Community Health Workers,Community Health Workers,Total,230
+AMR,BOL,Bolivia (Plurinational State of),2001,Midwifery Personnel,Midwifery Personnel not further defined,Total,96
+AMR,BOL,Bolivia (Plurinational State of),2001,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,742
+AMR,BOL,Bolivia (Plurinational State of),2001,Paramedical Practitioners,Paramedical Practitioners,Total,579
+AMR,BOL,Bolivia (Plurinational State of),2001,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,424
+AMR,BOL,Bolivia (Plurinational State of),2001,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,316
+AMR,BOL,Bolivia (Plurinational State of),2011,Nursing Personnel,Nursing Personnel not further defined,Total,10139
+AMR,BOL,Bolivia (Plurinational State of),2011,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,562
+AMR,BOL,Bolivia (Plurinational State of),2011,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,264
+AMR,BOL,Bolivia (Plurinational State of),2011,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,39
+AMR,BOL,Bolivia (Plurinational State of),2011,Social work and counselling professionals,Social work and counselling professionals,Total,157
+AMR,BOL,Bolivia (Plurinational State of),2017,Medical Doctors,Medical Doctors not further defined,Total,11528
+AMR,BOL,Bolivia (Plurinational State of),2019,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,18
+AMR,BOL,Bolivia (Plurinational State of),2021,Medical Doctors,General Medical Practitioners,Total,10089
+AMR,BOL,Bolivia (Plurinational State of),2021,Medical Doctors,Specialist Medical Practitioners,Total,5237
+AMR,BOL,Bolivia (Plurinational State of),2021,Nursing Personnel,Nursing Professionals,Total,7333
+AMR,BOL,Bolivia (Plurinational State of),2021,Nursing Personnel,Nursing Associate Professionals,Total,12058
+AMR,BOL,Bolivia (Plurinational State of),2021,Dentists,Dentists,Total,2737
+AMR,BOL,Bolivia (Plurinational State of),2021,Pharmacists,Pharmacists,Total,2882
+AMR,BOL,Bolivia (Plurinational State of),2021,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,65
+AMR,BOL,Bolivia (Plurinational State of),2021,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,22
+AMR,BOL,Bolivia (Plurinational State of),2021,Nutritionists,Nutritionists,Total,239
+AMR,BOL,Bolivia (Plurinational State of),2021,Health information systems personnel,Health information systems personnel,Total,286
+AMR,BRA,Brazil,2000,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,13924
+AMR,BRA,Brazil,2010,Paramedical Practitioners,Paramedical Practitioners,Total,1620
+AMR,BRA,Brazil,2013,Nursing Personnel,Nursing Personnel not further defined,Total,1520533
+AMR,BRA,Brazil,2017,Midwifery Personnel,Midwifery Associate Professionals,Total,5771
+AMR,BRA,Brazil,2017,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,29605
+AMR,BRA,Brazil,2017,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,43744
+AMR,BRA,Brazil,2017,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,63648
+AMR,BRA,Brazil,2017,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,11218
+AMR,BRA,Brazil,2017,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,166553
+AMR,BRA,Brazil,2017,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,3839
+AMR,BRA,Brazil,2017,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,7912
+AMR,BRA,Brazil,2017,Health Care Assistants,Health Care Assistants,Total,81925
+AMR,BRA,Brazil,2017,Home-based Personal Care Workers,Home-based Personal Care Workers,Total,574604
+AMR,BRA,Brazil,2017,Personal care workers in health services n.e.c,Personal care workers in health services n.e.c,Total,728326
+AMR,BRA,Brazil,2017,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,39479
+AMR,BRA,Brazil,2017,Dispensing Opticians,Dispensing Opticians,Total,2029
+AMR,BRA,Brazil,2017,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,1627
+AMR,BRA,Brazil,2017,Social work and counselling professionals,Social work and counselling professionals,Total,99353
+AMR,BRA,Brazil,2017,Social work associate professionals,Social work associate professionals,Total,96983
+AMR,BRA,Brazil,2017,Medical secretaries,Medical secretaries,Total,85442
+AMR,BRA,Brazil,2017,Managerial staff,Managerial staff,Total,37519
+AMR,BRA,Brazil,2021,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,63595
+AMR,BRA,Brazil,2021,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,5311
+AMR,BRA,Brazil,2021,Biomedical engineer,Biomedical engineer,Total,18654
+AMR,BRA,Brazil,2024,Medical Doctors,General Medical Practitioners,Total,278470
+AMR,BRA,Brazil,2024,Medical Doctors,Specialist Medical Practitioners,Total,126968
+AMR,BRA,Brazil,2024,Medical Doctors,Medical Doctors not further defined,Total,124234
+AMR,BRA,Brazil,2024,Nursing Personnel,Nursing Professionals,Total,397776
+AMR,BRA,Brazil,2024,Nursing Personnel,Nursing Associate Professionals,Total,838573
+AMR,BRA,Brazil,2024,Dentists,Dentists,Total,166443
+AMR,BRA,Brazil,2024,Pharmacists,Pharmacists,Total,80603
+AMR,BRA,Brazil,2024,Community Health Workers,Community Health Workers,Total,391437
+AMR,BRA,Brazil,2024,Personal care workers,Personal care workers,Total,173436
+AMR,BRA,Brazil,2024,Physiotherapists,Physiotherapists,Total,127571
+AMR,BRA,Brazil,2024,Dieticians,Dieticians,Total,562
+AMR,BRA,Brazil,2024,Nutritionists,Nutritionists,Total,47118
+AMR,BRA,Brazil,2024,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,31447
+AMR,BRA,Brazil,2024,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,458
+AMR,BRA,Brazil,2024,Ambulance Workers,Ambulance Workers,Total,42598
+AMR,BRA,Brazil,2024,Psychologists,Psychologists,Total,114207
+AMR,CAN,Canada,2018,Medical Doctors,Medical Doctors not further defined,Total,89911
+AMR,CAN,Canada,2018,Midwifery Personnel,Midwifery Personnel not further defined,Total,1590
+AMR,CAN,Canada,2018,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,2600
+AMR,CAN,Canada,2019,Dispensing Opticians,Dispensing Opticians,Total,3607
+AMR,CAN,Canada,2020,Midwifery Personnel,Midwifery Professionals,Total,1706
+AMR,CAN,Canada,2020,Dentists,Dentists,Total,24909
+AMR,CAN,Canada,2020,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,27375
+AMR,CAN,Canada,2020,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,9913
+AMR,CAN,Canada,2020,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,19757
+AMR,CAN,Canada,2020,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,25525
+AMR,CAN,Canada,2020,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,1708
+AMR,CAN,Canada,2020,Dieticians,Dieticians,Total,12178
+AMR,CAN,Canada,2020,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,13071
+AMR,CAN,Canada,2020,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,6707
+AMR,CAN,Canada,2020,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,4844
+AMR,CAN,Canada,2020,Medical Assistants,Medical Assistants,Total,765
+AMR,CAN,Canada,2020,Ambulance Workers,Ambulance Workers,Total,37530
+AMR,CAN,Canada,2020,Social work and counselling professionals,Social work and counselling professionals,Total,59583
+AMR,CAN,Canada,2020,Psychologists,Psychologists,Total,19654
+AMR,CAN,Canada,2023,Personal care workers,Personal care workers,Total,288784
+AMR,CAN,Canada,2024,Medical Doctors,General Medical Practitioners,Total,52959
+AMR,CAN,Canada,2024,Medical Doctors,Specialist Medical Practitioners,Total,60476
+AMR,CAN,Canada,2024,Nursing Personnel,Nursing Professionals,Total,332831
+AMR,CAN,Canada,2024,Nursing Personnel,Nursing Associate Professionals,Total,128911
+AMR,CAN,Canada,2024,Pharmacists,Pharmacists,Total,46334
+AMR,CAN,Canada,2024,Physiotherapists,Physiotherapists,Total,29657
+AMR,CHL,Chile,1992,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,4390
+AMR,CHL,Chile,1992,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,2870
+AMR,CHL,Chile,1992,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,350
+AMR,CHL,Chile,1992,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,280
+AMR,CHL,Chile,1992,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,310
+AMR,CHL,Chile,1992,Social work and counselling professionals,Social work and counselling professionals,Total,5190
+AMR,CHL,Chile,2009,Medical Doctors,Medical Doctors not further defined,Total,17382
+AMR,CHL,Chile,2009,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,29
+AMR,CHL,Chile,2009,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,3057
+AMR,CHL,Chile,2009,Nutritionists,Nutritionists,Total,4
+AMR,CHL,Chile,2009,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,366
+AMR,CHL,Chile,2023,Midwifery Personnel,Midwifery Personnel not further defined,Total,19735
+AMR,CHL,Chile,2023,Dentists,Dentists,Total,32969
+AMR,CHL,Chile,2023,Pharmacists,Pharmacists,Total,14294
+AMR,CHL,Chile,2024,Medical Doctors,General Medical Practitioners,Total,34204
+AMR,CHL,Chile,2024,Medical Doctors,Specialist Medical Practitioners,Total,34783
+AMR,CHL,Chile,2024,Nursing Personnel,Nursing Professionals,Total,93214
+AMR,CHL,Chile,2024,Personal care workers,Personal care workers,Total,225912
+AMR,CHL,Chile,2024,Physiotherapists,Physiotherapists,Total,45162
+AMR,COL,Colombia,2010,Medical Doctors,Medical Doctors not further defined,Total,75686
+AMR,COL,Colombia,2021,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,53807
+AMR,COL,Colombia,2021,Personal care workers,Personal care workers,Total,1094525
+AMR,COL,Colombia,2021,Nutritionists,Nutritionists,Total,10179
+AMR,COL,Colombia,2021,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,8375
+AMR,COL,Colombia,2021,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,5678
+AMR,COL,Colombia,2023,Medical Doctors,General Medical Practitioners,Total,87214
+AMR,COL,Colombia,2023,Medical Doctors,Specialist Medical Practitioners,Total,45519
+AMR,COL,Colombia,2023,Dentists,Dentists,Total,45527
+AMR,COL,Colombia,2023,Pharmacists,Pharmacists,Total,9657
+AMR,COL,Colombia,2023,Physiotherapists,Physiotherapists,Total,34151
+AMR,COL,Colombia,2024,Nursing Personnel,Nursing Personnel not further defined,Total,83171
+AMR,CRI,Costa Rica,2000,Midwifery Personnel,Midwifery Personnel not further defined,Total,22
+AMR,CRI,Costa Rica,2000,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,957
+AMR,CRI,Costa Rica,2000,Paramedical Practitioners,Paramedical Practitioners,Total,995
+AMR,CRI,Costa Rica,2000,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,1266
+AMR,CRI,Costa Rica,2000,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,4517
+AMR,CRI,Costa Rica,2012,Nursing Personnel,Nursing Personnel not further defined,Total,9525
+AMR,CRI,Costa Rica,2014,Medical Doctors,Medical Doctors not further defined,Total,12676
+AMR,CRI,Costa Rica,2016,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,1164
+AMR,CRI,Costa Rica,2021,Physiotherapists,Physiotherapists,Total,4064
+AMR,CRI,Costa Rica,2022,Medical Doctors,General Medical Practitioners,Total,7980
+AMR,CRI,Costa Rica,2022,Medical Doctors,Specialist Medical Practitioners,Total,5676
+AMR,CRI,Costa Rica,2022,Nursing Personnel,Nursing Professionals,Total,15606
+AMR,CRI,Costa Rica,2022,Dentists,Dentists,Total,5536
+AMR,CRI,Costa Rica,2022,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,235
+AMR,CRI,Costa Rica,2022,Pharmacists,Pharmacists,Total,6142
+AMR,CRI,Costa Rica,2022,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,1772
+AMR,CRI,Costa Rica,2022,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,166
+AMR,CRI,Costa Rica,2022,Nutritionists,Nutritionists,Total,2532
+AMR,CRI,Costa Rica,2022,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,1199
+AMR,CRI,Costa Rica,2022,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,932
+AMR,CRI,Costa Rica,2022,Social work and counselling professionals,Social work and counselling professionals,Total,25
+AMR,CRI,Costa Rica,2022,Psychologists,Psychologists,Total,9043
+AMR,CUB,Cuba,2010,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,2794
+AMR,CUB,Cuba,2010,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,771
+AMR,CUB,Cuba,2014,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,3058
+AMR,CUB,Cuba,2014,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,2810
+AMR,CUB,Cuba,2014,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,1389
+AMR,CUB,Cuba,2014,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,487
+AMR,CUB,Cuba,2014,Social work associate professionals,Social work associate professionals,Total,1281
+AMR,CUB,Cuba,2015,Dieticians,Dieticians,Total,143
+AMR,CUB,Cuba,2015,Social work and counselling professionals,Social work and counselling professionals,Total,1006
+AMR,CUB,Cuba,2018,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,1150
+AMR,CUB,Cuba,2020,Nursing Personnel,Nursing Professionals,Total,61736
+AMR,CUB,Cuba,2020,Nursing Personnel,Nursing Associate Professionals,Total,23241
+AMR,CUB,Cuba,2020,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,4865
+AMR,CUB,Cuba,2020,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,4097
+AMR,CUB,Cuba,2020,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,2770
+AMR,CUB,Cuba,2022,Medical Doctors,Medical Doctors not further defined,Total,94066
+AMR,CUB,Cuba,2022,Nursing Personnel,Nursing Personnel not further defined,Total,79569
+AMR,CUB,Cuba,2022,Dentists,Dentists,Total,17657
+AMR,CUB,Cuba,2022,Pharmacists,Pharmacists,Total,5942
+AMR,DMA,Dominica,2001,Pharmacists,Pharmacists,Total,18
+AMR,DMA,Dominica,2001,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,65
+AMR,DMA,Dominica,2001,Nutritionists,Nutritionists,Total,1
+AMR,DMA,Dominica,2001,Social work and counselling professionals,Social work and counselling professionals,Total,8
+AMR,DMA,Dominica,2018,Medical Doctors,Medical Doctors not further defined,Total,79
+AMR,DMA,Dominica,2018,Nursing Personnel,Nursing Personnel not further defined,Total,461
+AMR,DMA,Dominica,2018,Dentists,Dentists,Total,8
+AMR,DOM,Dominican Republic,2018,Nursing Personnel,Nursing Personnel not further defined,Total,10045
+AMR,DOM,Dominican Republic,2023,Medical Assistants,Medical Assistants,Total,100
+AMR,DOM,Dominican Republic,2024,Medical Doctors,General Medical Practitioners,Total,16650
+AMR,DOM,Dominican Republic,2024,Medical Doctors,Specialist Medical Practitioners,Total,7579
+AMR,DOM,Dominican Republic,2024,Medical Doctors,Medical Doctors not further defined,Total,21
+AMR,DOM,Dominican Republic,2024,Nursing Personnel,Nursing Professionals,Total,7822
+AMR,DOM,Dominican Republic,2024,Nursing Personnel,Nursing Associate Professionals,Total,12262
+AMR,DOM,Dominican Republic,2024,Dentists,Dentists,Total,3234
+AMR,DOM,Dominican Republic,2024,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,616
+AMR,DOM,Dominican Republic,2024,Pharmacists,Pharmacists,Total,276
+AMR,DOM,Dominican Republic,2024,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,1629
+AMR,DOM,Dominican Republic,2024,Paramedical Practitioners,Paramedical Practitioners,Total,41
+AMR,DOM,Dominican Republic,2024,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,3599
+AMR,DOM,Dominican Republic,2024,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,28
+AMR,DOM,Dominican Republic,2024,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,1222
+AMR,DOM,Dominican Republic,2024,Community Health Workers,Community Health Workers,Total,2710
+AMR,DOM,Dominican Republic,2024,Physiotherapists,Physiotherapists,Total,48
+AMR,DOM,Dominican Republic,2024,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,51
+AMR,DOM,Dominican Republic,2024,Dieticians,Dieticians,Total,23
+AMR,DOM,Dominican Republic,2024,Nutritionists,Nutritionists,Total,43
+AMR,DOM,Dominican Republic,2024,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,28
+AMR,DOM,Dominican Republic,2024,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,3
+AMR,DOM,Dominican Republic,2024,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,69
+AMR,DOM,Dominican Republic,2024,Psychologists,Psychologists,Total,993
+AMR,DOM,Dominican Republic,2024,Epidemiologists,Epidemiologists,Total,137
+AMR,ECU,Ecuador,1999,Nursing Personnel,Nursing Personnel not further defined,Total,19579
+AMR,ECU,Ecuador,2015,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,2379
+AMR,ECU,Ecuador,2015,Pharmacists,Pharmacists,Total,672
+AMR,ECU,Ecuador,2015,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,974
+AMR,ECU,Ecuador,2015,Paramedical Practitioners,Paramedical Practitioners,Total,281
+AMR,ECU,Ecuador,2015,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,4140
+AMR,ECU,Ecuador,2015,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,1900
+AMR,ECU,Ecuador,2015,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,691
+AMR,ECU,Ecuador,2015,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,5535
+AMR,ECU,Ecuador,2015,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,310
+AMR,ECU,Ecuador,2015,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,1488
+AMR,ECU,Ecuador,2015,Community Health Workers,Community Health Workers,Total,1054
+AMR,ECU,Ecuador,2015,Physiotherapists,Physiotherapists,Total,3307
+AMR,ECU,Ecuador,2015,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,2491
+AMR,ECU,Ecuador,2015,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,465
+AMR,ECU,Ecuador,2015,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,527
+AMR,ECU,Ecuador,2015,Dispensing Opticians,Dispensing Opticians,Total,350
+AMR,ECU,Ecuador,2015,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,178
+AMR,ECU,Ecuador,2015,Ambulance Workers,Ambulance Workers,Total,941
+AMR,ECU,Ecuador,2015,Social work and counselling professionals,Social work and counselling professionals,Total,5627
+AMR,ECU,Ecuador,2015,Social work associate professionals,Social work associate professionals,Total,9803
+AMR,ECU,Ecuador,2020,Medical Doctors,Medical Doctors not further defined,Total,40587
+AMR,ECU,Ecuador,2020,Nursing Personnel,Nursing Professionals,Total,27017
+AMR,ECU,Ecuador,2020,Nursing Personnel,Nursing Associate Professionals,Total,16557
+AMR,ECU,Ecuador,2020,Midwifery Personnel,Midwifery Personnel not further defined,Total,2564
+AMR,ECU,Ecuador,2020,Dentists,Dentists,Total,5203
+AMR,ECU,Ecuador,2020,Psychologists,Psychologists,Total,1550
+AMR,SLV,El Salvador,2007,Nursing Personnel,Nursing Personnel not further defined,Total,8350
+AMR,SLV,El Salvador,2007,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,150
+AMR,SLV,El Salvador,2008,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,1975
+AMR,SLV,El Salvador,2016,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,1011
+AMR,SLV,El Salvador,2016,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,2049
+AMR,SLV,El Salvador,2016,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,1325
+AMR,SLV,El Salvador,2016,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,359
+AMR,SLV,El Salvador,2016,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,350
+AMR,SLV,El Salvador,2016,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,609
+AMR,SLV,El Salvador,2016,Social work associate professionals,Social work associate professionals,Total,3016
+AMR,SLV,El Salvador,2017,Midwifery Personnel,Midwifery Personnel not further defined,Total,160
+AMR,SLV,El Salvador,2017,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,668
+AMR,SLV,El Salvador,2022,Medical Doctors,General Medical Practitioners,Total,5202
+AMR,SLV,El Salvador,2022,Medical Doctors,Specialist Medical Practitioners,Total,4631
+AMR,SLV,El Salvador,2022,Nursing Personnel,Nursing Professionals,Total,7618
+AMR,SLV,El Salvador,2022,Nursing Personnel,Nursing Associate Professionals,Total,6068
+AMR,SLV,El Salvador,2022,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,227
+AMR,SLV,El Salvador,2022,Community Health Workers,Community Health Workers,Total,3059
+AMR,SLV,El Salvador,2022,Physiotherapists,Physiotherapists,Total,443
+AMR,SLV,El Salvador,2022,Nutritionists,Nutritionists,Total,227
+AMR,SLV,El Salvador,2022,Social work and counselling professionals,Social work and counselling professionals,Total,394
+AMR,SLV,El Salvador,2022,Psychologists,Psychologists,Total,311
+AMR,SLV,El Salvador,2022,Epidemiologists,Epidemiologists,Total,111
+AMR,SLV,El Salvador,2023,Medical Doctors,Medical Doctors not further defined,Total,10194
+AMR,SLV,El Salvador,2023,Dentists,Dentists,Total,990
+AMR,SLV,El Salvador,2023,Pharmacists,Pharmacists,Total,1006
+AMR,GRD,Grenada,2003,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,4
+AMR,GRD,Grenada,2008,Dieticians,Dieticians,Total,1
+AMR,GRD,Grenada,2013,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,4
+AMR,GRD,Grenada,2013,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,13
+AMR,GRD,Grenada,2013,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,7
+AMR,GRD,Grenada,2013,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,13
+AMR,GRD,Grenada,2013,Community Health Workers,Community Health Workers,Total,43
+AMR,GRD,Grenada,2013,Physiotherapists,Physiotherapists,Total,1
+AMR,GRD,Grenada,2013,Nutritionists,Nutritionists,Total,1
+AMR,GRD,Grenada,2013,Social work and counselling professionals,Social work and counselling professionals,Total,5
+AMR,GRD,Grenada,2016,Pharmacists,Pharmacists,Total,75
+AMR,GRD,Grenada,2017,Nursing Personnel,Nursing Personnel not further defined,Total,339
+AMR,GRD,Grenada,2018,Medical Doctors,Medical Doctors not further defined,Total,160
+AMR,GRD,Grenada,2018,Dentists,Dentists,Total,22
+AMR,GRD,Grenada,2023,Nursing Personnel,Nursing Professionals,Total,331
+AMR,GRD,Grenada,2023,Nursing Personnel,Nursing Associate Professionals,Total,205
+AMR,GTM,Guatemala,2018,Medical Doctors,Medical Doctors not further defined,Total,6122
+AMR,GTM,Guatemala,2018,Paramedical Practitioners,Paramedical Practitioners,Total,5230
+AMR,GTM,Guatemala,2020,Medical Doctors,Specialist Medical Practitioners,Total,5640
+AMR,GTM,Guatemala,2020,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,1364
+AMR,GTM,Guatemala,2020,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,2044
+AMR,GTM,Guatemala,2020,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,405
+AMR,GTM,Guatemala,2020,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,640
+AMR,GTM,Guatemala,2020,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,391
+AMR,GTM,Guatemala,2020,Community Health Workers,Community Health Workers,Total,225
+AMR,GTM,Guatemala,2020,Physiotherapists,Physiotherapists,Total,359
+AMR,GTM,Guatemala,2020,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,469
+AMR,GTM,Guatemala,2020,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,40
+AMR,GTM,Guatemala,2020,Dispensing Opticians,Dispensing Opticians,Total,294
+AMR,GTM,Guatemala,2023,Nursing Personnel,Nursing Professionals,Total,8095
+AMR,GTM,Guatemala,2023,Nursing Personnel,Nursing Associate Professionals,Total,8095
+AMR,GTM,Guatemala,2023,Nursing Personnel,Nursing Personnel not further defined,Total,24868
+AMR,GTM,Guatemala,2023,Midwifery Personnel,Midwifery Professionals,Total,143
+AMR,GTM,Guatemala,2024,Medical Doctors,General Medical Practitioners,Total,29952
+AMR,GTM,Guatemala,2024,Dentists,Dentists,Total,5021
+AMR,GTM,Guatemala,2024,Pharmacists,Pharmacists,Total,7971
+AMR,GTM,Guatemala,2024,Nutritionists,Nutritionists,Total,2690
+AMR,GTM,Guatemala,2024,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,31
+AMR,GTM,Guatemala,2024,Social work and counselling professionals,Social work and counselling professionals,Total,4811
+AMR,GTM,Guatemala,2024,Psychologists,Psychologists,Total,18091
+AMR,GUY,Guyana,2009,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,29
+AMR,GUY,Guyana,2009,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,13
+AMR,GUY,Guyana,2009,Social work and counselling professionals,Social work and counselling professionals,Total,28
+AMR,GUY,Guyana,2010,Paramedical Practitioners,Paramedical Practitioners,Total,77
+AMR,GUY,Guyana,2018,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,55
+AMR,GUY,Guyana,2018,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,42
+AMR,GUY,Guyana,2018,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,21
+AMR,GUY,Guyana,2018,Physiotherapists,Physiotherapists,Total,12
+AMR,GUY,Guyana,2018,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,15
+AMR,GUY,Guyana,2018,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,6
+AMR,GUY,Guyana,2018,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,6
+AMR,GUY,Guyana,2018,Dispensing Opticians,Dispensing Opticians,Total,2
+AMR,GUY,Guyana,2020,Midwifery Personnel,Midwifery Personnel not further defined,Total,340
+AMR,GUY,Guyana,2020,Dentists,Dentists,Total,55
+AMR,GUY,Guyana,2020,Pharmacists,Pharmacists,Total,47
+AMR,GUY,Guyana,2023,Medical Doctors,Medical Doctors not further defined,Total,1032
+AMR,GUY,Guyana,2024,Nursing Personnel,Nursing Professionals,Total,1460
+AMR,GUY,Guyana,2024,Nursing Personnel,Nursing Associate Professionals,Total,1156
+AMR,GUY,Guyana,2024,Nursing Personnel,Nursing Personnel not further defined,Total,999
+AMR,GUY,Guyana,2024,Midwifery Personnel,Midwifery Professionals,Total,398
+AMR,GUY,Guyana,2024,Midwifery Personnel,Midwifery Associate Professionals,Total,12
+AMR,GUY,Guyana,2024,Community Health Workers,Community Health Workers,Total,528
+AMR,HTI,Haiti,2011,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,131
+AMR,HTI,Haiti,2011,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,1930
+AMR,HTI,Haiti,2011,Physiotherapists,Physiotherapists,Total,35
+AMR,HTI,Haiti,2011,Dieticians,Dieticians,Total,9
+AMR,HTI,Haiti,2011,Ambulance Workers,Ambulance Workers,Total,70
+AMR,HTI,Haiti,2011,Social work associate professionals,Social work associate professionals,Total,121
+AMR,HTI,Haiti,2018,Nursing Personnel,Nursing Personnel not further defined,Total,4227
+AMR,HTI,Haiti,2018,Dentists,Dentists,Total,237
+AMR,HTI,Haiti,2018,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,16
+AMR,HTI,Haiti,2018,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,2
+AMR,HTI,Haiti,2018,Pharmacists,Pharmacists,Total,336
+AMR,HTI,Haiti,2018,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,340
+AMR,HTI,Haiti,2018,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,1731
+AMR,HTI,Haiti,2018,Social work and counselling professionals,Social work and counselling professionals,Total,66
+AMR,HTI,Haiti,2021,Community Health Workers,Community Health Workers,Total,4411
+AMR,HTI,Haiti,2022,Medical Doctors,Medical Doctors not further defined,Total,3354
+AMR,HTI,Haiti,2022,Nursing Personnel,Nursing Professionals,Total,5042
+AMR,HTI,Haiti,2022,Nursing Personnel,Nursing Associate Professionals,Total,3160
+AMR,HTI,Haiti,2022,Midwifery Personnel,Midwifery Personnel not further defined,Total,219
+AMR,HND,Honduras,2000,Midwifery Personnel,Midwifery Personnel not further defined,Total,195
+AMR,HND,Honduras,2000,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,230
+AMR,HND,Honduras,2000,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,575
+AMR,HND,Honduras,2000,Paramedical Practitioners,Paramedical Practitioners,Total,1052
+AMR,HND,Honduras,2005,Medical Doctors,Medical Doctors not further defined,Total,2680
+AMR,HND,Honduras,2005,Nursing Personnel,Nursing Personnel not further defined,Total,7796
+AMR,HND,Honduras,2005,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,394
+AMR,HND,Honduras,2016,Community Health Workers,Community Health Workers,Total,7114
+AMR,HND,Honduras,2016,Social work associate professionals,Social work associate professionals,Total,8208
+AMR,HND,Honduras,2017,Medical Doctors,Specialist Medical Practitioners,Total,1365
+AMR,HND,Honduras,2017,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,1822
+AMR,HND,Honduras,2017,Social work and counselling professionals,Social work and counselling professionals,Total,118
+AMR,HND,Honduras,2018,Nursing Personnel,Nursing Associate Professionals,Total,5899
+AMR,HND,Honduras,2023,Medical Doctors,General Medical Practitioners,Total,20251
+AMR,HND,Honduras,2023,Nursing Personnel,Nursing Professionals,Total,7810
+AMR,HND,Honduras,2023,Midwifery Personnel,Midwifery Professionals,Total,15
+AMR,HND,Honduras,2023,Dentists,Dentists,Total,7558
+AMR,HND,Honduras,2023,Pharmacists,Pharmacists,Total,5862
+AMR,JAM,Jamaica,2008,Dieticians,Dieticians,Total,79
+AMR,JAM,Jamaica,2008,Nutritionists,Nutritionists,Total,18
+AMR,JAM,Jamaica,2008,Social work and counselling professionals,Social work and counselling professionals,Total,21
+AMR,JAM,Jamaica,2012,Nursing Personnel,Nursing Personnel not further defined,Total,4012
+AMR,JAM,Jamaica,2016,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,1
+AMR,JAM,Jamaica,2016,Paramedical Practitioners,Paramedical Practitioners,Total,59
+AMR,JAM,Jamaica,2016,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,130
+AMR,JAM,Jamaica,2016,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,52
+AMR,JAM,Jamaica,2017,Midwifery Personnel,Midwifery Personnel not further defined,Total,396
+AMR,JAM,Jamaica,2018,Medical Doctors,General Medical Practitioners,Total,1198
+AMR,JAM,Jamaica,2018,Medical Doctors,Specialist Medical Practitioners,Total,348
+AMR,JAM,Jamaica,2018,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,76
+AMR,JAM,Jamaica,2018,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,291
+AMR,JAM,Jamaica,2018,Community Health Workers,Community Health Workers,Total,1106
+AMR,JAM,Jamaica,2018,Health Care Assistants,Health Care Assistants,Total,1272
+AMR,JAM,Jamaica,2018,Physiotherapists,Physiotherapists,Total,198
+AMR,JAM,Jamaica,2018,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,39
+AMR,JAM,Jamaica,2018,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,37
+AMR,JAM,Jamaica,2018,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,7
+AMR,JAM,Jamaica,2018,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,947
+AMR,JAM,Jamaica,2018,Ambulance Workers,Ambulance Workers,Total,133
+AMR,JAM,Jamaica,2018,Other non-medical support staff,Other non-medical support staff,Total,2888
+AMR,JAM,Jamaica,2024,Medical Doctors,Medical Doctors not further defined,Total,2903
+AMR,JAM,Jamaica,2024,Nursing Personnel,Nursing Professionals,Total,4757
+AMR,JAM,Jamaica,2024,Nursing Personnel,Nursing Associate Professionals,Total,641
+AMR,JAM,Jamaica,2024,Midwifery Personnel,Midwifery Professionals,Total,550
+AMR,JAM,Jamaica,2024,Dentists,Dentists,Total,275
+AMR,JAM,Jamaica,2024,Pharmacists,Pharmacists,Total,287
+AMR,JAM,Jamaica,2024,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,361
+AMR,JAM,Jamaica,2024,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,59
+AMR,MEX,Mexico,2000,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,18598
+AMR,MEX,Mexico,2000,Paramedical Practitioners,Paramedical Practitioners,Total,217226
+AMR,MEX,Mexico,2010,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,12543
+AMR,MEX,Mexico,2010,Pharmacists,Pharmacists,Total,5588
+AMR,MEX,Mexico,2010,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,4887
+AMR,MEX,Mexico,2010,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,21674
+AMR,MEX,Mexico,2010,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,20320
+AMR,MEX,Mexico,2010,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,3788
+AMR,MEX,Mexico,2010,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,4543
+AMR,MEX,Mexico,2010,Nutritionists,Nutritionists,Total,12135
+AMR,MEX,Mexico,2010,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,7020
+AMR,MEX,Mexico,2010,Biomedical engineer,Biomedical engineer,Total,833
+AMR,MEX,Mexico,2013,Midwifery Personnel,Midwifery Associate Professionals,Total,23000
+AMR,MEX,Mexico,2019,Midwifery Personnel,Midwifery Professionals,Total,33
+AMR,MEX,Mexico,2023,Medical Doctors,General Medical Practitioners,Total,128271
+AMR,MEX,Mexico,2023,Medical Doctors,Specialist Medical Practitioners,Total,228733
+AMR,MEX,Mexico,2023,Nursing Personnel,Nursing Professionals,Total,245188
+AMR,MEX,Mexico,2023,Nursing Personnel,Nursing Associate Professionals,Total,150234
+AMR,MEX,Mexico,2023,Dentists,Dentists,Total,18056
+AMR,NIC,Nicaragua,2014,Nursing Personnel,Nursing Personnel not further defined,Total,8323
+AMR,NIC,Nicaragua,2014,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,1263
+AMR,NIC,Nicaragua,2014,Pharmacists,Pharmacists,Total,1141
+AMR,NIC,Nicaragua,2014,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,4094
+AMR,NIC,Nicaragua,2014,Social work and counselling professionals,Social work and counselling professionals,Total,2437
+AMR,NIC,Nicaragua,2014,Social work associate professionals,Social work associate professionals,Total,167
+AMR,NIC,Nicaragua,2018,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,1270
+AMR,NIC,Nicaragua,2018,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,261
+AMR,NIC,Nicaragua,2018,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,1013
+AMR,NIC,Nicaragua,2018,Physiotherapists,Physiotherapists,Total,204
+AMR,NIC,Nicaragua,2018,Nutritionists,Nutritionists,Total,157
+AMR,NIC,Nicaragua,2022,Medical Doctors,Medical Doctors not further defined,Total,6110
+AMR,NIC,Nicaragua,2022,Nursing Personnel,Nursing Professionals,Total,5498
+AMR,NIC,Nicaragua,2022,Nursing Personnel,Nursing Associate Professionals,Total,5926
+AMR,NIC,Nicaragua,2022,Dentists,Dentists,Total,245
+AMR,PAN,Panama,2011,Nursing Personnel,Nursing Personnel not further defined,Total,8579
+AMR,PAN,Panama,2021,Midwifery Personnel,Midwifery Professionals,Total,402
+AMR,PAN,Panama,2021,Midwifery Personnel,Midwifery Associate Professionals,Total,763
+AMR,PAN,Panama,2021,Midwifery Personnel,Midwifery Personnel not further defined,Total,274
+AMR,PAN,Panama,2021,Social work associate professionals,Social work associate professionals,Total,120
+AMR,PAN,Panama,2021,Other non-medical professional staff,Other non-medical professional staff,Total,2981
+AMR,PAN,Panama,2021,Other non-medical support staff,Other non-medical support staff,Total,562
+AMR,PAN,Panama,2022,Medical Doctors,General Medical Practitioners,Total,3283
+AMR,PAN,Panama,2022,Medical Doctors,Specialist Medical Practitioners,Total,3268
+AMR,PAN,Panama,2022,Medical Doctors,Medical Doctors not further defined,Total,599
+AMR,PAN,Panama,2022,Nursing Personnel,Nursing Professionals,Total,7489
+AMR,PAN,Panama,2022,Nursing Personnel,Nursing Associate Professionals,Total,7233
+AMR,PAN,Panama,2022,Dentists,Dentists,Total,1232
+AMR,PAN,Panama,2022,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,679
+AMR,PAN,Panama,2022,Pharmacists,Pharmacists,Total,958
+AMR,PAN,Panama,2022,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,1043
+AMR,PAN,Panama,2022,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,1256
+AMR,PAN,Panama,2022,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,676
+AMR,PAN,Panama,2022,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,635
+AMR,PAN,Panama,2022,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,19
+AMR,PAN,Panama,2022,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,178
+AMR,PAN,Panama,2022,Community Health Workers,Community Health Workers,Total,536
+AMR,PAN,Panama,2022,Physiotherapists,Physiotherapists,Total,449
+AMR,PAN,Panama,2022,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,13
+AMR,PAN,Panama,2022,Dieticians,Dieticians,Total,91
+AMR,PAN,Panama,2022,Nutritionists,Nutritionists,Total,281
+AMR,PAN,Panama,2022,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,16
+AMR,PAN,Panama,2022,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,56
+AMR,PAN,Panama,2022,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,28
+AMR,PAN,Panama,2022,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,1668
+AMR,PAN,Panama,2022,Medical Assistants,Medical Assistants,Total,131
+AMR,PAN,Panama,2022,Ambulance Workers,Ambulance Workers,Total,105
+AMR,PAN,Panama,2022,Social work and counselling professionals,Social work and counselling professionals,Total,392
+AMR,PAN,Panama,2022,Biomedical engineer,Biomedical engineer,Total,49
+AMR,PAN,Panama,2022,Psychologists,Psychologists,Total,368
+AMR,PRY,Paraguay,2012,Nursing Personnel,Nursing Personnel not further defined,Total,6689
+AMR,PRY,Paraguay,2018,Midwifery Personnel,Midwifery Personnel not further defined,Total,1151
+AMR,PRY,Paraguay,2018,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,41
+AMR,PRY,Paraguay,2020,Medical Doctors,General Medical Practitioners,Total,7500
+AMR,PRY,Paraguay,2020,Medical Doctors,Specialist Medical Practitioners,Total,1061
+AMR,PRY,Paraguay,2021,Community Health Workers,Community Health Workers,Total,1089
+AMR,PRY,Paraguay,2021,Managerial staff,Managerial staff,Total,4213
+AMR,PRY,Paraguay,2021,Other non-medical professional staff,Other non-medical professional staff,Total,3
+AMR,PRY,Paraguay,2022,Medical Doctors,Medical Doctors not further defined,Total,26320
+AMR,PRY,Paraguay,2022,Nursing Personnel,Nursing Professionals,Total,43858
+AMR,PRY,Paraguay,2022,Nursing Personnel,Nursing Associate Professionals,Total,14398
+AMR,PRY,Paraguay,2022,Midwifery Personnel,Midwifery Professionals,Total,3794
+AMR,PRY,Paraguay,2022,Midwifery Personnel,Midwifery Associate Professionals,Total,1557
+AMR,PRY,Paraguay,2022,Dentists,Dentists,Total,9068
+AMR,PRY,Paraguay,2022,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,685
+AMR,PRY,Paraguay,2022,Pharmacists,Pharmacists,Total,4547
+AMR,PRY,Paraguay,2022,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,5612
+AMR,PRY,Paraguay,2022,Paramedical Practitioners,Paramedical Practitioners,Total,69
+AMR,PRY,Paraguay,2022,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,5843
+AMR,PRY,Paraguay,2022,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,2775
+AMR,PRY,Paraguay,2022,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,8649
+AMR,PRY,Paraguay,2022,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,96
+AMR,PRY,Paraguay,2022,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,1135
+AMR,PRY,Paraguay,2022,Health Care Assistants,Health Care Assistants,Total,6493
+AMR,PRY,Paraguay,2022,Personal care workers in health services n.e.c,Personal care workers in health services n.e.c,Total,1755
+AMR,PRY,Paraguay,2022,Physiotherapists,Physiotherapists,Total,5797
+AMR,PRY,Paraguay,2022,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,2455
+AMR,PRY,Paraguay,2022,Nutritionists,Nutritionists,Total,5483
+AMR,PRY,Paraguay,2022,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,708
+AMR,PRY,Paraguay,2022,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,186
+AMR,PRY,Paraguay,2022,Dispensing Opticians,Dispensing Opticians,Total,245
+AMR,PRY,Paraguay,2022,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,131
+AMR,PRY,Paraguay,2022,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,103
+AMR,PRY,Paraguay,2022,Medical Assistants,Medical Assistants,Total,1557
+AMR,PRY,Paraguay,2022,Ambulance Workers,Ambulance Workers,Total,75
+AMR,PRY,Paraguay,2022,Social work and counselling professionals,Social work and counselling professionals,Total,1903
+AMR,PRY,Paraguay,2022,Social work associate professionals,Social work associate professionals,Total,29
+AMR,PRY,Paraguay,2022,Biomedical engineer,Biomedical engineer,Total,111
+AMR,PRY,Paraguay,2022,Psychologists,Psychologists,Total,11781
+AMR,PRY,Paraguay,2022,Other non-medical support staff,Other non-medical support staff,Total,48
+AMR,PER,Peru,2007,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,1510
+AMR,PER,Peru,2012,Nursing Personnel,Nursing Personnel not further defined,Total,33491
+AMR,PER,Peru,2012,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,1512
+AMR,PER,Peru,2018,Medical Doctors,Medical Doctors not further defined,Total,43805
+AMR,PER,Peru,2018,Nursing Personnel,Nursing Associate Professionals,Total,44335
+AMR,PER,Peru,2018,Midwifery Personnel,Midwifery Personnel not further defined,Total,17190
+AMR,PER,Peru,2021,Field Epidemiologists,Field Epidemiologists,Total,0
+AMR,PER,Peru,2022,Epidemiologists,Epidemiologists,Total,0
+AMR,PER,Peru,2023,Medical Doctors,General Medical Practitioners,Total,32507
+AMR,PER,Peru,2023,Medical Doctors,Specialist Medical Practitioners,Total,24621
+AMR,PER,Peru,2023,Nursing Personnel,Nursing Professionals,Total,71052
+AMR,PER,Peru,2023,Midwifery Personnel,Midwifery Professionals,Total,21599
+AMR,PER,Peru,2023,Dentists,Dentists,Total,7280
+AMR,PER,Peru,2023,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,151
+AMR,PER,Peru,2023,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,55
+AMR,PER,Peru,2023,Pharmacists,Pharmacists,Total,5594
+AMR,PER,Peru,2023,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,5875
+AMR,PER,Peru,2023,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,13
+AMR,PER,Peru,2023,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,6886
+AMR,PER,Peru,2023,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,243
+AMR,PER,Peru,2023,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,1364
+AMR,PER,Peru,2023,Physiotherapists,Physiotherapists,Total,1630
+AMR,PER,Peru,2023,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,322
+AMR,PER,Peru,2023,Dieticians,Dieticians,Total,1304
+AMR,PER,Peru,2023,Nutritionists,Nutritionists,Total,3209
+AMR,PER,Peru,2023,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,185
+AMR,PER,Peru,2023,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,56
+AMR,PER,Peru,2023,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,75
+AMR,PER,Peru,2023,Ambulance Workers,Ambulance Workers,Total,3981
+AMR,PER,Peru,2023,Social work and counselling professionals,Social work and counselling professionals,Total,2661
+AMR,PER,Peru,2023,Social work associate professionals,Social work associate professionals,Total,122
+AMR,PER,Peru,2023,Psychologists,Psychologists,Total,7430
+AMR,PER,Peru,2023,Managerial staff,Managerial staff,Total,6634
+AMR,PER,Peru,2023,Health information systems personnel,Health information systems personnel,Total,11156
+AMR,PER,Peru,2023,Engineering and maintenance staff,Engineering and maintenance staff,Total,1408
+AMR,PER,Peru,2023,Other non-medical professional staff,Other non-medical professional staff,Total,12188
+AMR,PER,Peru,2023,Other non-medical support staff,Other non-medical support staff,Total,101673
+AMR,KNA,Saint Kitts and Nevis,2001,Community Health Workers,Community Health Workers,Total,48
+AMR,KNA,Saint Kitts and Nevis,2015,Nursing Personnel,Nursing Personnel not further defined,Total,216
+AMR,KNA,Saint Kitts and Nevis,2018,Medical Doctors,Medical Doctors not further defined,Total,145
+AMR,KNA,Saint Kitts and Nevis,2018,Dentists,Dentists,Total,12
+AMR,KNA,Saint Kitts and Nevis,2023,Nursing Personnel,Nursing Professionals,Total,253
+AMR,KNA,Saint Kitts and Nevis,2023,Nursing Personnel,Nursing Associate Professionals,Total,55
+AMR,LCA,Saint Lucia,2001,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,165
+AMR,LCA,Saint Lucia,2001,Nutritionists,Nutritionists,Total,7
+AMR,LCA,Saint Lucia,2001,Social work and counselling professionals,Social work and counselling professionals,Total,35
+AMR,LCA,Saint Lucia,2017,Nursing Personnel,Nursing Personnel not further defined,Total,476
+AMR,LCA,Saint Lucia,2017,Dentists,Dentists,Total,31
+AMR,LCA,Saint Lucia,2017,Pharmacists,Pharmacists,Total,79
+AMR,LCA,Saint Lucia,2020,Medical Doctors,Medical Doctors not further defined,Total,755
+AMR,LCA,Saint Lucia,2023,Nursing Personnel,Nursing Professionals,Total,749
+AMR,LCA,Saint Lucia,2023,Nursing Personnel,Nursing Associate Professionals,Total,64
+AMR,LCA,Saint Lucia,2023,Midwifery Personnel,Midwifery Personnel not further defined,Total,145
+AMR,VCT,Saint Vincent and the Grenadines,2012,Medical Doctors,Medical Doctors not further defined,Total,102
+AMR,VCT,Saint Vincent and the Grenadines,2021,Nursing Personnel,Nursing Personnel not further defined,Total,5
+AMR,VCT,Saint Vincent and the Grenadines,2021,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,3
+AMR,VCT,Saint Vincent and the Grenadines,2021,Ambulance Workers,Ambulance Workers,Total,23
+AMR,VCT,Saint Vincent and the Grenadines,2021,Social work and counselling professionals,Social work and counselling professionals,Total,8
+AMR,VCT,Saint Vincent and the Grenadines,2022,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,28
+AMR,VCT,Saint Vincent and the Grenadines,2022,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,11
+AMR,VCT,Saint Vincent and the Grenadines,2022,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,19
+AMR,VCT,Saint Vincent and the Grenadines,2022,Community Health Workers,Community Health Workers,Total,45
+AMR,VCT,Saint Vincent and the Grenadines,2022,Physiotherapists,Physiotherapists,Total,6
+AMR,VCT,Saint Vincent and the Grenadines,2022,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,1
+AMR,VCT,Saint Vincent and the Grenadines,2022,Dieticians,Dieticians,Total,5
+AMR,VCT,Saint Vincent and the Grenadines,2022,Nutritionists,Nutritionists,Total,3
+AMR,VCT,Saint Vincent and the Grenadines,2022,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,3
+AMR,VCT,Saint Vincent and the Grenadines,2022,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,2
+AMR,VCT,Saint Vincent and the Grenadines,2022,Biomedical engineer,Biomedical engineer,Total,1
+AMR,VCT,Saint Vincent and the Grenadines,2022,Psychologists,Psychologists,Total,6
+AMR,VCT,Saint Vincent and the Grenadines,2022,Health information systems personnel,Health information systems personnel,Total,4
+AMR,VCT,Saint Vincent and the Grenadines,2022,Engineering and maintenance staff,Engineering and maintenance staff,Total,10
+AMR,VCT,Saint Vincent and the Grenadines,2023,Nursing Personnel,Nursing Professionals,Total,486
+AMR,VCT,Saint Vincent and the Grenadines,2023,Nursing Personnel,Nursing Associate Professionals,Total,189
+AMR,VCT,Saint Vincent and the Grenadines,2023,Midwifery Personnel,Midwifery Professionals,Total,137
+AMR,VCT,Saint Vincent and the Grenadines,2023,Dentists,Dentists,Total,23
+AMR,VCT,Saint Vincent and the Grenadines,2023,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,22
+AMR,VCT,Saint Vincent and the Grenadines,2023,Pharmacists,Pharmacists,Total,71
+AMR,VCT,Saint Vincent and the Grenadines,2023,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,11
+AMR,VCT,Saint Vincent and the Grenadines,2023,Epidemiologists,Epidemiologists,Total,8
+AMR,VCT,Saint Vincent and the Grenadines,2023,Field Epidemiologists,Field Epidemiologists,Total,1
+AMR,VCT,Saint Vincent and the Grenadines,2024,Medical Doctors,General Medical Practitioners,Total,105
+AMR,VCT,Saint Vincent and the Grenadines,2024,Medical Doctors,Specialist Medical Practitioners,Total,86
+AMR,SUR,Suriname,2009,Midwifery Personnel,Midwifery Personnel not further defined,Total,53
+AMR,SUR,Suriname,2018,Medical Doctors,Medical Doctors not further defined,Total,472
+AMR,SUR,Suriname,2018,Epidemiologists,Epidemiologists,Total,3
+AMR,SUR,Suriname,2021,Nursing Personnel,Nursing Associate Professionals,Total,209
+AMR,SUR,Suriname,2021,Midwifery Personnel,Midwifery Associate Professionals,Total,12
+AMR,SUR,Suriname,2021,Dentists,Dentists,Total,43
+AMR,SUR,Suriname,2021,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,1
+AMR,SUR,Suriname,2021,Pharmacists,Pharmacists,Total,50
+AMR,SUR,Suriname,2021,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,119
+AMR,SUR,Suriname,2021,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,1
+AMR,SUR,Suriname,2021,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,49
+AMR,SUR,Suriname,2021,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,11
+AMR,SUR,Suriname,2021,Dispensing Opticians,Dispensing Opticians,Total,19
+AMR,SUR,Suriname,2021,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,1
+AMR,SUR,Suriname,2023,Health Care Assistants,Health Care Assistants,Total,178
+AMR,SUR,Suriname,2024,Medical Doctors,General Medical Practitioners,Total,619
+AMR,SUR,Suriname,2024,Medical Doctors,Specialist Medical Practitioners,Total,210
+AMR,SUR,Suriname,2024,Nursing Personnel,Nursing Professionals,Total,1075
+AMR,SUR,Suriname,2024,Midwifery Personnel,Midwifery Professionals,Total,92
+AMR,SUR,Suriname,2024,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,96
+AMR,SUR,Suriname,2024,Community Health Workers,Community Health Workers,Total,270
+AMR,SUR,Suriname,2024,Physiotherapists,Physiotherapists,Total,19
+AMR,SUR,Suriname,2024,Dieticians,Dieticians,Total,1
+AMR,SUR,Suriname,2024,Medical Assistants,Medical Assistants,Total,125
+AMR,SUR,Suriname,2024,Ambulance Workers,Ambulance Workers,Total,80
+AMR,SUR,Suriname,2024,Psychologists,Psychologists,Total,14
+AMR,TTO,Trinidad and Tobago,2015,Nursing Personnel,Nursing Personnel not further defined,Total,4773
+AMR,TTO,Trinidad and Tobago,2017,Midwifery Personnel,Midwifery Associate Professionals,Total,47
+AMR,TTO,Trinidad and Tobago,2018,Midwifery Personnel,Midwifery Personnel not further defined,Total,67
+AMR,TTO,Trinidad and Tobago,2018,Pharmacists,Pharmacists,Total,923
+AMR,TTO,Trinidad and Tobago,2018,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,346
+AMR,TTO,Trinidad and Tobago,2018,Physiotherapists,Physiotherapists,Total,81
+AMR,TTO,Trinidad and Tobago,2018,Dieticians,Dieticians,Total,129
+AMR,TTO,Trinidad and Tobago,2018,Nutritionists,Nutritionists,Total,6
+AMR,TTO,Trinidad and Tobago,2018,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,29
+AMR,TTO,Trinidad and Tobago,2018,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,133
+AMR,TTO,Trinidad and Tobago,2018,Social work and counselling professionals,Social work and counselling professionals,Total,225
+AMR,TTO,Trinidad and Tobago,2018,Psychologists,Psychologists,Total,35
+AMR,TTO,Trinidad and Tobago,2019,Midwifery Personnel,Midwifery Professionals,Total,41
+AMR,TTO,Trinidad and Tobago,2019,Dentists,Dentists,Total,444
+AMR,TTO,Trinidad and Tobago,2019,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,282
+AMR,TTO,Trinidad and Tobago,2019,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,516
+AMR,TTO,Trinidad and Tobago,2020,Medical Doctors,Medical Doctors not further defined,Total,6366
+AMR,TTO,Trinidad and Tobago,2021,Medical Doctors,General Medical Practitioners,Total,4987
+AMR,TTO,Trinidad and Tobago,2021,Medical Doctors,Specialist Medical Practitioners,Total,1197
+AMR,TTO,Trinidad and Tobago,2023,Nursing Personnel,Nursing Professionals,Total,4765
+AMR,TTO,Trinidad and Tobago,2023,Nursing Personnel,Nursing Associate Professionals,Total,1409
+AMR,USA,United States of America,1985,Medical Doctors,Medical Doctors not further defined,Total,525070
+AMR,USA,United States of America,2000,Dieticians,Dieticians,Total,101390
+AMR,USA,United States of America,2016,Midwifery Personnel,Midwifery Personnel not further defined,Total,15571
+AMR,USA,United States of America,2017,Midwifery Personnel,Midwifery Professionals,Total,10781
+AMR,USA,United States of America,2020,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,336642
+AMR,USA,United States of America,2022,Medical Doctors,General Medical Practitioners,Total,104640
+AMR,USA,United States of America,2022,Medical Doctors,Specialist Medical Practitioners,Total,801787
+AMR,USA,United States of America,2022,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,542534
+AMR,USA,United States of America,2022,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,441105
+AMR,USA,United States of America,2022,Paramedical Practitioners,Paramedical Practitioners,Total,119962
+AMR,USA,United States of America,2022,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,493857
+AMR,USA,United States of America,2022,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,359709
+AMR,USA,United States of America,2022,Health Care Assistants,Health Care Assistants,Total,1568507
+AMR,USA,United States of America,2022,Home-based Personal Care Workers,Home-based Personal Care Workers,Total,2195334
+AMR,USA,United States of America,2022,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,322711
+AMR,USA,United States of America,2022,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,229763
+AMR,USA,United States of America,2022,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,46341
+AMR,USA,United States of America,2022,Dispensing Opticians,Dispensing Opticians,Total,67891
+AMR,USA,United States of America,2022,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,198684
+AMR,USA,United States of America,2022,Medical Assistants,Medical Assistants,Total,646392
+AMR,USA,United States of America,2022,Ambulance Workers,Ambulance Workers,Total,154373
+AMR,USA,United States of America,2022,Social work and counselling professionals,Social work and counselling professionals,Total,980755
+AMR,USA,United States of America,2022,Social work associate professionals,Social work associate professionals,Total,157998
+AMR,USA,United States of America,2022,Psychologists,Psychologists,Total,258315
+AMR,USA,United States of America,2022,Medical secretaries,Medical secretaries,Total,135367
+AMR,USA,United States of America,2022,Managerial staff,Managerial staff,Total,834449
+AMR,USA,United States of America,2023,Dentists,Dentists,Total,202300
+AMR,USA,United States of America,2023,Community Health Workers,Community Health Workers,Total,58550
+AMR,USA,United States of America,2024,Nursing Personnel,Nursing Professionals,Total,3648030
+AMR,USA,United States of America,2024,Nursing Personnel,Nursing Associate Professionals,Total,632430
+AMR,USA,United States of America,2024,Pharmacists,Pharmacists,Total,328870
+AMR,USA,United States of America,2024,Personal care workers,Personal care workers,Total,5464490
+AMR,USA,United States of America,2024,Physiotherapists,Physiotherapists,Total,248630
+AMR,URY,Uruguay,2008,Nursing Personnel,Nursing Personnel not further defined,Total,19595
+AMR,URY,Uruguay,2008,Medical and Pathology Laboratory scientists,Medical and Pathology Laboratory scientists,Total,601
+AMR,URY,Uruguay,2016,Environmental and Occupational Health Inspectors and Associates,Environmental and Occupational Health Inspectors and Associates,Total,1731
+AMR,URY,Uruguay,2016,Traditional and Complementary Medicine Professionals,Traditional and Complementary Medicine Professionals,Total,137
+AMR,URY,Uruguay,2016,Traditional and Complementary Medicine Associate Professionals,Traditional and Complementary Medicine Associate Professionals,Total,146
+AMR,URY,Uruguay,2016,Social work associate professionals,Social work associate professionals,Total,4756
+AMR,URY,Uruguay,2017,Medical Doctors,Medical Doctors not further defined,Total,16976
+AMR,URY,Uruguay,2022,Dental Prosthetic Technicians,Dental Prosthetic Technicians,Total,2
+AMR,URY,Uruguay,2022,Ambulance Workers,Ambulance Workers,Total,124
+AMR,URY,Uruguay,2022,Epidemiologists,Epidemiologists,Total,0
+AMR,URY,Uruguay,2022,Field Epidemiologists,Field Epidemiologists,Total,0
+AMR,URY,Uruguay,2023,Medical Doctors,General Medical Practitioners,Total,6351
+AMR,URY,Uruguay,2023,Medical Doctors,Specialist Medical Practitioners,Total,9069
+AMR,URY,Uruguay,2023,Nursing Personnel,Nursing Professionals,Total,5120
+AMR,URY,Uruguay,2023,Nursing Personnel,Nursing Associate Professionals,Total,20151
+AMR,URY,Uruguay,2023,Midwifery Personnel,Midwifery Professionals,Total,564
+AMR,URY,Uruguay,2023,Dentists,Dentists,Total,881
+AMR,URY,Uruguay,2023,Dental Assistants and Therapists,Dental Assistants and Therapists,Total,194
+AMR,URY,Uruguay,2023,Pharmacists,Pharmacists,Total,244
+AMR,URY,Uruguay,2023,Pharmaceutical Technicians and Assistants,Pharmaceutical Technicians and Assistants,Total,800
+AMR,URY,Uruguay,2023,Medical and Pathology Laboratory Technicians,Medical and Pathology Laboratory Technicians,Total,1466
+AMR,URY,Uruguay,2023,Medical Imaging and Therapeutic Equipment Technicians,Medical Imaging and Therapeutic Equipment Technicians,Total,798
+AMR,URY,Uruguay,2023,Environmental and Occupational Health and Hygiene Professionals,Environmental and Occupational Health and Hygiene Professionals,Total,15
+AMR,URY,Uruguay,2023,Physiotherapists,Physiotherapists,Total,770
+AMR,URY,Uruguay,2023,Physiotherapy Technicians and Assistants,Physiotherapy Technicians and Assistants,Total,481
+AMR,URY,Uruguay,2023,Nutritionists,Nutritionists,Total,955
+AMR,URY,Uruguay,2023,Audiologists and Speech Therapists,Audiologists and Speech Therapists,Total,149
+AMR,URY,Uruguay,2023,Optometrists and Ophthalmic Opticians,Optometrists and Ophthalmic Opticians,Total,63
+AMR,URY,Uruguay,2023,Dispensing Opticians,Dispensing Opticians,Total,1
+AMR,URY,Uruguay,2023,Medical Prosthetic Technicians,Medical Prosthetic Technicians,Total,10
+AMR,URY,Uruguay,2023,Medical Records and Health Information Technicians,Medical Records and Health Information Technicians,Total,2173
+AMR,URY,Uruguay,2023,Medical Assistants,Medical Assistants,Total,1211
+AMR,URY,Uruguay,2023,Social work and counselling professionals,Social work and counselling professionals,Total,317
+AMR,URY,Uruguay,2023,Psychologists,Psychologists,Total,1187
+AMR,URY,Uruguay,2023,Managerial staff,Managerial staff,Total,3217
+AMR,URY,Uruguay,2023,Health information systems personnel,Health information systems personnel,Total,512
+AMR,URY,Uruguay,2023,Other non-medical professional staff,Other non-medical professional staff,Total,643
+AMR,URY,Uruguay,2023,Other non-medical support staff,Other non-medical support staff,Total,8274
+AMR,VEN,Venezuela (Bolivarian Republic of),2017,Medical Doctors,Medical Doctors not further defined,Total,50866
+AMR,VEN,Venezuela (Bolivarian Republic of),2017,Nursing Personnel,Nursing Personnel not further defined,Total,59099
+AMR,VEN,Venezuela (Bolivarian Republic of),2017,Dentists,Dentists,Total,4116
+AMR,VEN,Venezuela (Bolivarian Republic of),2018,Nursing Personnel,Nursing Professionals,Total,35056
+AMR,VEN,Venezuela (Bolivarian Republic of),2018,Nursing Personnel,Nursing Associate Professionals,Total,24634
+,,,,,,,
+Source: WHO NHWA Data Platform - December 2025 update.,,,,,,,

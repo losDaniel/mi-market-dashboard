@@ -114,6 +114,75 @@ adjacent_role_translation = {
 }
 
 
+@st.cache_data
+def load_psychologist_range_data():
+    psych_df = pd.read_csv(PSYCH_MARKET_PATH)
+
+    psych_df.columns = [
+        "pais",
+        "region",
+        "poblacion",
+        "psicologos_practicantes"
+    ]
+
+    psych_df["pais"] = psych_df["pais"].ffill()
+    psych_df["region"] = psych_df["region"].astype(str).str.strip()
+
+    psych_df = psych_df[psych_df["region"] == "Nacional"].copy()
+
+    psych_df["poblacion"] = (
+        psych_df["poblacion"]
+        .astype(str)
+        .str.replace(",", "", regex=False)
+        .replace({"": pd.NA})
+        .astype(float)
+    )
+
+    psych_df["psicologos_practicantes"] = (
+        psych_df["psicologos_practicantes"]
+        .astype(str)
+        .str.replace(",", "", regex=False)
+        .replace({"": pd.NA, "nan": pd.NA})
+        .astype(float)
+    )
+
+    psych_df["ISO3"] = psych_df["pais"].str.strip().map(country_name_to_iso)
+    psych_df = psych_df[psych_df["ISO3"].notna()].copy()
+
+    # Model missing psychologist counts
+    import numpy as np
+    from sklearn.ensemble import RandomForestRegressor
+
+    psych_df["log_poblacion"] = np.log(psych_df["poblacion"])
+
+    train = psych_df[psych_df["psicologos_practicantes"].notna()]
+    missing = psych_df[psych_df["psicologos_practicantes"].isna()]
+
+    features = ["poblacion", "log_poblacion"]
+
+    model = RandomForestRegressor(
+        n_estimators=500,
+        random_state=42,
+        min_samples_leaf=2
+    )
+
+    model.fit(train[features], train["psicologos_practicantes"])
+
+    psych_df["psicologos_rango_alto"] = psych_df["psicologos_practicantes"]
+
+    psych_df.loc[
+        psych_df["psicologos_practicantes"].isna(),
+        "psicologos_rango_alto"
+    ] = model.predict(missing[features])
+
+    psych_df["psicologos_rango_alto"] = (
+        psych_df["psicologos_rango_alto"].round().astype(int)
+    )
+
+    return psych_df[["ISO3", "pais", "poblacion", "psicologos_practicantes", "psicologos_rango_alto"]]
+
+
+
 
 def assign_segment(role):
     if role in primary_roles:
@@ -122,6 +191,32 @@ def assign_segment(role):
         return "Mercado secundario"
     else:
         return "Fuerza laboral adyacente / otras profesiones de salud"
+
+
+psych_range_df = load_psychologist_range_data()
+
+who_psych_low = (
+    latest_df[latest_df["profesion"] == "Psicólogos"]
+    .groupby(["ISO3", "Country"], as_index=False)["Value"]
+    .sum()
+    .rename(columns={"Value": "psicologos_rango_bajo"})
+)
+
+psych_market_range = who_psych_low.merge(
+    psych_range_df,
+    on="ISO3",
+    how="left"
+)
+
+psych_market_range["psicologos_rango_alto"] = psych_market_range[
+    "psicologos_rango_alto"
+].fillna(psych_market_range["psicologos_rango_bajo"])
+
+psych_market_range["brecha"] = (
+    psych_market_range["psicologos_rango_alto"]
+    - psych_market_range["psicologos_rango_bajo"]
+)
+
 
 
 df = load_data()
@@ -190,121 +285,156 @@ total_market = segment_totals["Value"].sum()
 num_countries = filtered_df["Country"].nunique()
 num_professions = filtered_df["profesion"].nunique()
 
-col1, col2, col3 = st.columns(3)
-col1.metric("Fuerza laboral alcanzable estimada", f"{total_market:,.0f}")
-col2.metric("Países incluidos", f"{num_countries}")
-col3.metric("Profesiones incluidas", f"{num_professions}")
+tab1, tab2 = st.tabs(["WHO Data", "WHO-National Range"])
 
-st.divider()
+with tab1: 
 
-with st.expander("Ver definición de segmentos"):
-    col_a, col_b, col_c = st.columns(3)
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Fuerza laboral alcanzable estimada", f"{total_market:,.0f}")
+    col2.metric("Países incluidos", f"{num_countries}")
+    col3.metric("Profesiones incluidas", f"{num_professions}")
 
-    with col_a:
-        st.subheader("Mercado primario")
-        st.markdown("\n".join([f"- {role_translation.get(role, role)}" for role in primary_roles]))
+    st.divider()
 
-    with col_b:
-        st.subheader("Mercado secundario")
-        st.markdown("\n".join([f"- {role_translation.get(role, role)}" for role in secondary_roles]))
+    with st.expander("Ver definición de segmentos"):
+        col_a, col_b, col_c = st.columns(3)
 
-    with col_c:
-        st.subheader("Mercado adyacente")
-        st.markdown("\n".join([f"- {adjacent_role_translation.get(role, role)}" for role in adjacent_roles]))
+        with col_a:
+            st.subheader("Mercado primario")
+            st.markdown("\n".join([f"- {role_translation.get(role, role)}" for role in primary_roles]))
 
-st.subheader("Fuerza laboral alcanzable estimada por país")
+        with col_b:
+            st.subheader("Mercado secundario")
+            st.markdown("\n".join([f"- {role_translation.get(role, role)}" for role in secondary_roles]))
 
-fig_country = px.bar(
-    country_totals,
-    x="Country",
-    y="Value",
-    title="Fuerza laboral alcanzable estimada por país",
-    text_auto=".2s",
-)
+        with col_c:
+            st.subheader("Mercado adyacente")
+            st.markdown("\n".join([f"- {adjacent_role_translation.get(role, role)}" for role in adjacent_roles]))
 
-fig_country.update_layout(
-    xaxis_title="País",
-    yaxis_title="Profesionales estimados",
-    xaxis_tickangle=-45,
-)
+    st.subheader("Fuerza laboral alcanzable estimada por país")
 
-st.plotly_chart(fig_country, use_container_width=True)
+    fig_country = px.bar(
+        country_totals,
+        x="Country",
+        y="Value",
+        title="Fuerza laboral alcanzable estimada por país",
+        text_auto=".2s",
+    )
 
-st.subheader("Fuerza laboral estimada por segmento de mercado")
+    fig_country.update_layout(
+        xaxis_title="País",
+        yaxis_title="Profesionales estimados",
+        xaxis_tickangle=-45,
+    )
 
-fig_segment = px.bar(
-    segment_totals,
-    x="segmento_mercado",
-    y="Value",
-    title="Fuerza laboral estimada por segmento de mercado",
-    text_auto=".2s",
-)
+    st.plotly_chart(fig_country, use_container_width=True)
 
-fig_segment.update_layout(
-    xaxis_title="Segmento de mercado",
-    yaxis_title="Profesionales estimados",
-)
+    st.subheader("Fuerza laboral estimada por segmento de mercado")
 
-st.plotly_chart(fig_segment, use_container_width=True)
+    fig_segment = px.bar(
+        segment_totals,
+        x="segmento_mercado",
+        y="Value",
+        title="Fuerza laboral estimada por segmento de mercado",
+        text_auto=".2s",
+    )
 
-st.subheader("Principales profesiones alcanzables")
+    fig_segment.update_layout(
+        xaxis_title="Segmento de mercado",
+        yaxis_title="Profesionales estimados",
+    )
 
-fig_profession = px.bar(
-    profession_totals.head(20),
-    x="Value",
-    y="profesion",
-    color="segmento_mercado",
-    orientation="h",
-    title="Principales profesiones alcanzables",
-    text_auto=".2s",
-)
+    st.plotly_chart(fig_segment, use_container_width=True)
 
-fig_profession.update_layout(
-    xaxis_title="Profesionales estimados",
-    yaxis_title="Profesión",
-    legend_title_text="Segmento de mercado",
-    yaxis={"categoryorder": "total ascending"},
-)
+    st.subheader("Principales profesiones alcanzables")
 
-st.plotly_chart(fig_profession, use_container_width=True)
+    fig_profession = px.bar(
+        profession_totals.head(20),
+        x="Value",
+        y="profesion",
+        color="segmento_mercado",
+        orientation="h",
+        title="Principales profesiones alcanzables",
+        text_auto=".2s",
+    )
 
-st.subheader("Distribución geográfica del mercado")
+    fig_profession.update_layout(
+        xaxis_title="Profesionales estimados",
+        yaxis_title="Profesión",
+        legend_title_text="Segmento de mercado",
+        yaxis={"categoryorder": "total ascending"},
+    )
 
-fig_map = px.choropleth(
-    country_totals,
-    locations="ISO3",
-    color="Value",
-    hover_name="Country",
-    title="Distribución geográfica de la fuerza laboral alcanzable estimada",
-    color_continuous_scale="Blues",
-)
+    st.plotly_chart(fig_profession, use_container_width=True)
 
-fig_map.update_layout(
-    coloraxis_colorbar_title="Profesionales estimados"
-)
+    st.subheader("Distribución geográfica del mercado")
 
-st.plotly_chart(fig_map, use_container_width=True)
+    fig_map = px.choropleth(
+        country_totals,
+        locations="ISO3",
+        color="Value",
+        hover_name="Country",
+        title="Distribución geográfica de la fuerza laboral alcanzable estimada",
+        color_continuous_scale="Blues",
+    )
 
-st.subheader("Composición del mercado por país, segmento y profesión")
+    fig_map.update_layout(
+        coloraxis_colorbar_title="Profesionales estimados"
+    )
 
-fig_tree = px.treemap(
-    filtered_df,
-    path=["Country", "segmento_mercado", "profesion"],
-    values="Value",
-    title="Composición del mercado por país, segmento y profesión",
-)
+    st.plotly_chart(fig_map, use_container_width=True)
 
-st.plotly_chart(fig_tree, use_container_width=True)
+    st.subheader("Composición del mercado por país, segmento y profesión")
 
-with st.expander("Ver tablas de datos"):
-    st.write("Totales por segmento")
-    st.dataframe(segment_totals, use_container_width=True)
+    fig_tree = px.treemap(
+        filtered_df,
+        path=["Country", "segmento_mercado", "profesion"],
+        values="Value",
+        title="Composición del mercado por país, segmento y profesión",
+    )
 
-    st.write("Totales por país")
-    st.dataframe(country_totals, use_container_width=True)
+    st.plotly_chart(fig_tree, use_container_width=True)
 
-    st.write("Totales por profesión")
-    st.dataframe(profession_totals, use_container_width=True)
+    with st.expander("Ver tablas de datos"):
+        st.write("Totales por segmento")
+        st.dataframe(segment_totals, use_container_width=True)
 
-    st.write("Datos procesados")
-    st.dataframe(filtered_df, use_container_width=True)
+        st.write("Totales por país")
+        st.dataframe(country_totals, use_container_width=True)
+
+        st.write("Totales por profesión")
+        st.dataframe(profession_totals, use_container_width=True)
+
+        st.write("Datos procesados")
+        st.dataframe(filtered_df, use_container_width=True)
+
+with tab2: 
+    st.subheader("Rango estimado del mercado de psicólogos")
+
+    total_psych_low = psych_market_range["psicologos_rango_bajo"].sum()
+    total_psych_high = psych_market_range["psicologos_rango_alto"].sum()
+
+    col_a, col_b = st.columns(2)
+    col_a.metric("Psicólogos — rango bajo (OMS)", f"{total_psych_low:,.0f}")
+    col_b.metric("Psicólogos — rango alto (datos nacionales + estimación)", f"{total_psych_high:,.0f}")
+
+    range_plot_df = psych_market_range.sort_values("psicologos_rango_alto", ascending=False)
+
+    fig_psych_range = px.bar(
+        range_plot_df,
+        x="Country",
+        y=["psicologos_rango_bajo", "psicologos_rango_alto"],
+        barmode="group",
+        title="Rango estimado de psicólogos por país",
+        labels={
+            "value": "Psicólogos estimados",
+            "Country": "País",
+            "variable": "Estimación"
+        },
+    )
+
+    fig_psych_range.update_layout(
+        xaxis_tickangle=-45,
+    )
+
+    st.plotly_chart(fig_psych_range, use_container_width=True)
